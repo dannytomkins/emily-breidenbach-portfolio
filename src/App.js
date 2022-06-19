@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 import './App.css';
 import Navbar from './components/Navbar';
@@ -9,17 +9,15 @@ import StudentWorkPage from './pages/StudentWorkPage';
 
 const App = () => {
   return (
-    <>
+    <Router>
       <div>App</div>
-      <Router>
         <Navbar />
-        <Route exact path='/' component={LandingPage} />
-        <Switch>
-          <Route exact path='/classes' component={ClassesPage} />
-          <Route exact path='/student-work' component={StudentWorkPage} />
-        </Switch>
-      </Router>
-    </>
+        <Routes>
+          <Route path='/' element={<LandingPage />} />
+          <Route path='/classes' element={<ClassesPage />} />
+          <Route path='/student-work' element={<StudentWorkPage />} />
+        </Routes>
+    </Router>
   );
 };
 
