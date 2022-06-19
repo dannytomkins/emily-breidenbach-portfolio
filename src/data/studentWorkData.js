@@ -1,5 +1,5 @@
 import defaultImg1 from '../img/dog1-300x300.jpeg'
-import defaultImg2 from '../img/placeholder-400x300.jpeg'
+import defaultImg2 from '../img/placeholder-400x300.png'
 
 export const studentWorkData = [
     {
@@ -11,28 +11,28 @@ export const studentWorkData = [
     },
     {
         id: 2,
-        name: "firstImg",
+        name: "secondImg",
         artistName: "Artist Name Here",
         description: "Description of first Img",
         img: defaultImg1
     },
     {
         id: 3,
-        name: "firstImg",
+        name: "thirdImg",
         artistName: "Artist Name Here",
         description: "Description of first Img",
         img: defaultImg2
     },
     {
         id: 4,
-        name: "firstImg",
+        name: "fourthImg",
         artistName: "Artist Name Here",
         description: "Description of first Img",
         img: defaultImg1
     },
     {
         id: 5,
-        name: "firstImg",
+        name: "fifthImg",
         artistName: "Artist Name Here",
         description: "Description of first Img",
         img: defaultImg2

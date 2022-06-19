@@ -1,8 +1,14 @@
 import React from 'react'
+import StudentWorkGallery from '../components/StudentWorkGallery'
 
 const StudentWorkPage = () => {
   return (
-    <div>StudentWorkPage</div>
+    <div>
+      <p>
+      StudentWorkPage
+      </p>
+    <StudentWorkGallery />
+    </div>
   )
 }
 
