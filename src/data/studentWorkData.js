@@ -1,9 +1,152 @@
+import defaultImg1 from '../img/dog1-300x300.jpeg'
+import defaultImg2 from '../img/placeholder-400x300.jpeg'
+
 export const studentWorkData = [
     {
         id: 1,
         name: "firstImg",
         artistName: "Artist Name Here",
         description: "Description of first Img",
-        img: null
-    }
+        img: defaultImg1
+    },
+    {
+        id: 2,
+        name: "firstImg",
+        artistName: "Artist Name Here",
+        description: "Description of first Img",
+        img: defaultImg1
+    },
+    {
+        id: 3,
+        name: "firstImg",
+        artistName: "Artist Name Here",
+        description: "Description of first Img",
+        img: defaultImg2
+    },
+    {
+        id: 4,
+        name: "firstImg",
+        artistName: "Artist Name Here",
+        description: "Description of first Img",
+        img: defaultImg1
+    },
+    {
+        id: 5,
+        name: "firstImg",
+        artistName: "Artist Name Here",
+        description: "Description of first Img",
+        img: defaultImg2
+    },
+    {
+        id: 6,
+        name: "firstImg",
+        artistName: "Artist Name Here",
+        description: "Description of first Img",
+        img: defaultImg1
+    },
+    {
+        id: 7,
+        name: "firstImg",
+        artistName: "Artist Name Here",
+        description: "Description of first Img",
+        img: defaultImg1
+    },
+    {
+        id: 8,
+        name: "firstImg",
+        artistName: "Artist Name Here",
+        description: "Description of first Img",
+        img: defaultImg1
+    },
+    {
+        id: 9,
+        name: "firstImg",
+        artistName: "Artist Name Here",
+        description: "Description of first Img",
+        img: defaultImg1
+    },
+    {
+        id: 10,
+        name: "firstImg",
+        artistName: "Artist Name Here",
+        description: "Description of first Img",
+        img: defaultImg2
+    },
+    {
+        id: 11,
+        name: "firstImg",
+        artistName: "Artist Name Here",
+        description: "Description of first Img",
+        img: defaultImg1
+    },
+    {
+        id: 12,
+        name: "firstImg",
+        artistName: "Artist Name Here",
+        description: "Description of first Img",
+        img: defaultImg2
+    },
+    {
+        id: 13,
+        name: "firstImg",
+        artistName: "Artist Name Here",
+        description: "Description of first Img",
+        img: defaultImg1
+    },
+    {
+        id: 14,
+        name: "firstImg",
+        artistName: "Artist Name Here",
+        description: "Description of first Img",
+        img: defaultImg1
+    },
+    {
+        id: 15,
+        name: "firstImg",
+        artistName: "Artist Name Here",
+        description: "Description of first Img",
+        img: defaultImg1
+    },
+    {
+        id: 16,
+        name: "firstImg",
+        artistName: "Artist Name Here",
+        description: "Description of first Img",
+        img: defaultImg1
+    },
+    {
+        id: 17,
+        name: "firstImg",
+        artistName: "Artist Name Here",
+        description: "Description of first Img",
+        img: defaultImg2
+    },
+    {
+        id: 18,
+        name: "firstImg",
+        artistName: "Artist Name Here",
+        description: "Description of first Img",
+        img: defaultImg1
+    },
+    {
+        id: 19,
+        name: "firstImg",
+        artistName: "Artist Name Here",
+        description: "Description of first Img",
+        img: defaultImg2
+    },
+    {
+        id: 20,
+        name: "firstImg",
+        artistName: "Artist Name Here",
+        description: "Description of first Img",
+        img: defaultImg1
+    },
+    {
+        id: 21,
+        name: "firstImg",
+        artistName: "Artist Name Here",
+        description: "Description of first Img",
+        img: defaultImg1
+    },
 ]
