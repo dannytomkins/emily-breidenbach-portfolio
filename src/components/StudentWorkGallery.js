@@ -9,9 +9,13 @@ const StudentWorkGallery = () => {
       <StudentWorkItem item={item} />
     )
   })
+  const salon = {
+    "display":"flex",
+    "flexWrap":"wrap",
+    "justifyContent":"center",
+  }  
   return (
-    <div>
-      <p>Student Work Gallery</p>
+    <div style={salon}>
     {allItems}
     </div>
   )
