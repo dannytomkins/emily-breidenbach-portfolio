@@ -1,6 +1,10 @@
 import defaultImg1 from '../img/dog1-300x300.jpeg'
 import defaultImg2 from '../img/placeholder-400x300.png'
 import studentWork1 from '../img/ann-chen-2.jpg'
+import studentWork2 from '../img/ann-chen.jpg'
+import studentWork3 from '../img/ariadne-nelson.jpg'
+import studentWork4 from '../img/barbara-frank.jpg'
+
 
 export const studentWorkData = [
     {
@@ -15,21 +19,21 @@ export const studentWorkData = [
         name: "secondImg",
         artistName: "Artist Name Here",
         description: "Description of first Img",
-        img: defaultImg1
+        img: studentWork2
     },
     {
         id: 3,
         name: "thirdImg",
         artistName: "Artist Name Here",
         description: "Description of first Img",
-        img: defaultImg2
+        img: studentWork3
     },
     {
         id: 4,
         name: "fourthImg",
         artistName: "Artist Name Here",
         description: "Description of first Img",
-        img: defaultImg1
+        img: studentWork4
     },
     {
         id: 5,
