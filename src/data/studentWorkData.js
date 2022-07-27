@@ -4,6 +4,11 @@ import studentWork1 from '../img/ann-chen-2.jpg'
 import studentWork2 from '../img/ann-chen.jpg'
 import studentWork3 from '../img/ariadne-nelson.jpg'
 import studentWork4 from '../img/barbara-frank.jpg'
+import studentWork5 from '../img/cynthia-jaworski-2.jpg'
+import studentWork6 from '../img/cynthia-jaworski-3.jpg'
+import studentWork7 from '../img/cynthia-jaworski-4.jpg'
+import studentWork8 from '../img/cynthia-jaworski-5.jpg'
+import studentWork9 from '../img/cynthia-jaworski.jpg'
 
 
 export const studentWorkData = [
@@ -40,35 +45,35 @@ export const studentWorkData = [
         name: "fifthImg",
         artistName: "Artist Name Here",
         description: "Description of first Img",
-        img: defaultImg2
+        img: studentWork5
     },
     {
         id: 6,
         name: "firstImg",
         artistName: "Artist Name Here",
         description: "Description of first Img",
-        img: defaultImg1
+        img: studentWork6
     },
     {
         id: 7,
         name: "firstImg",
         artistName: "Artist Name Here",
         description: "Description of first Img",
-        img: defaultImg1
+        img: studentWork7
     },
     {
         id: 8,
         name: "firstImg",
         artistName: "Artist Name Here",
         description: "Description of first Img",
-        img: defaultImg1
+        img: studentWork8
     },
     {
         id: 9,
         name: "firstImg",
         artistName: "Artist Name Here",
         description: "Description of first Img",
-        img: defaultImg1
+        img: studentWork9
     },
     {
         id: 10,
