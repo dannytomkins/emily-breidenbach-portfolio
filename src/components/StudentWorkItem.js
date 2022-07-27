@@ -6,7 +6,10 @@ const StudentWorkItem = (props) => {
     "Width":"100%"
   }
   return (
-    <div><p>{props.item.name}</p><img src={props.item.img} style={imageStyle}/></div>
+    <div>
+      {/* <p>{props.item.name}</p> */}
+      <img src={props.item.img} style={imageStyle}/>
+    </div>
   )
 }
 
