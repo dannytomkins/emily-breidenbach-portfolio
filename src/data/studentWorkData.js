@@ -30,11 +30,10 @@ import studentWork27 from '../img/melissa-meyers.jpg'
 import studentWork28 from '../img/mimi-mcnamee-2.jpg'
 import studentWork29 from '../img/mimi-mcnamee.jpg'
 import studentWork30 from '../img/norma-miller-2.jpg'
-import studentWork31 from '../img/norma-miller.jpg'
-import studentWork32 from '../img/paul-nierman-2.jpg'
-import studentWork33 from '../img/paul-nierman.jpg'
-import studentWork34 from '../img/rowan-howe.jpg'
-import studentWork35 from '../img/sarah-kelley.jpg'
+import studentWork31 from '../img/paul-nierman-2.jpg'
+import studentWork32 from '../img/paul-nierman.jpg'
+import studentWork33 from '../img/rowan-howe.jpg'
+import studentWork34 from '../img/sarah-kelley.jpg'
 
 
 export const studentWorkData = [
@@ -275,12 +274,5 @@ export const studentWorkData = [
         artistName: "Artist Name Here",
         description: "Description of Img",
         img: studentWork34
-    },
-    {
-        id: 35,
-        name: "firstImg",
-        artistName: "Artist Name Here",
-        description: "Description of Img",
-        img: studentWork35
     },
 ]
