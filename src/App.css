@@ -1,5 +1,9 @@
-
-
+/* .navbar */
+.navbar {
+  background: green;
+  display: flex;
+  justify-content: space-between;
+}
 
 /* .student-work-item */
 @media all and (max-width: 799px) {
