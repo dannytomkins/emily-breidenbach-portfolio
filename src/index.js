@@ -7,7 +7,7 @@ import ClassesPage from './pages/ClassesPage';
 import LandingPage from './pages/LandingPage';
 import StudentWorkPage from './pages/StudentWorkPage';
 import reportWebVitals from './reportWebVitals';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,14 +16,14 @@ root.render(
       <link rel='stylesheet' href='https://use.typekit.net/crb6emr.css' />
     </head>
   <App/>
-  <Router>
+  <HashRouter>
         <Navbar />
         <Routes>
           <Route path='/' element={<LandingPage />} />
           <Route path='/classes' element={<ClassesPage />} />
           <Route path='/student-work' element={<StudentWorkPage />} />
         </Routes>
-    </Router>
+    </HashRouter>
   </React.StrictMode>
 );
 
