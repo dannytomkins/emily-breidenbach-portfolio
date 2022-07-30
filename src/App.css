@@ -1,3 +1,8 @@
+body {
+  margin: 0px;
+  padding: 0px
+}
+
 /* .navbar */
 .navbar {
   background: green;
@@ -13,16 +18,19 @@
 }
 .navlist li {
   padding: 5px;
+  font-size: 100%;
 }
 
 /* .student-work-item */
 @media all and (max-width: 799px) {
   .student-work-item {
+    display: block;
     width : 100%;
   }
 }
 @media all and (min-width: 800px) {
   .student-work-item {
+    display: block;
     height : 300px;
     width : 100%;
   }

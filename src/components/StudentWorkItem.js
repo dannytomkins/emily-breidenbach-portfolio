@@ -4,7 +4,6 @@ const StudentWorkItem = (props) => {
 
   return (
     <div>
-      {/* <p>{props.item.name}</p> */}
       <img src={props.item.img} className='student-work-item'/>
     </div>
   )
