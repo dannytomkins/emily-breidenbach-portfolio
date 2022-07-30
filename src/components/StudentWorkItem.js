@@ -1,11 +1,7 @@
 import React from 'react'
 
 const StudentWorkItem = (props) => {
-  const imageStyle = {
-    
-    "height":"300px",
-    "width":"100%"
-  }
+
   return (
     <div>
       {/* <p>{props.item.name}</p> */}
