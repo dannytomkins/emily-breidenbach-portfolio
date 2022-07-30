@@ -7,7 +7,7 @@ import ClassesPage from './pages/ClassesPage';
 import LandingPage from './pages/LandingPage';
 import StudentWorkPage from './pages/StudentWorkPage';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
