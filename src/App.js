@@ -10,7 +10,6 @@ import StudentWorkPage from './pages/StudentWorkPage';
 const App = () => {
   return (
     <Router>
-      <div>App</div>
         <Navbar />
         <Routes>
           <Route path='/' element={<LandingPage />} />
