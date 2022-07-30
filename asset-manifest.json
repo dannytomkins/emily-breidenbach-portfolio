@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/emily-breidenbach-portfolio/static/css/main.695edfee.css",
-    "main.js": "/emily-breidenbach-portfolio/static/js/main.58e9572c.js",
+    "main.js": "/emily-breidenbach-portfolio/static/js/main.48358d32.js",
     "static/js/787.c35a382c.chunk.js": "/emily-breidenbach-portfolio/static/js/787.c35a382c.chunk.js",
     "static/media/cynthia-jaworski-3.jpg": "/emily-breidenbach-portfolio/static/media/cynthia-jaworski-3.b66652a04256f6101a4a.jpg",
     "static/media/jasmyne-robertson.jpg": "/emily-breidenbach-portfolio/static/media/jasmyne-robertson.93a9865ff15f0438e042.jpg",
@@ -40,11 +40,11 @@
     "static/media/dog1-300x300.jpeg": "/emily-breidenbach-portfolio/static/media/dog1-300x300.c2bfcfe85bc283605e58.jpeg",
     "index.html": "/emily-breidenbach-portfolio/index.html",
     "main.695edfee.css.map": "/emily-breidenbach-portfolio/static/css/main.695edfee.css.map",
-    "main.58e9572c.js.map": "/emily-breidenbach-portfolio/static/js/main.58e9572c.js.map",
+    "main.48358d32.js.map": "/emily-breidenbach-portfolio/static/js/main.48358d32.js.map",
     "787.c35a382c.chunk.js.map": "/emily-breidenbach-portfolio/static/js/787.c35a382c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.695edfee.css",
-    "static/js/main.58e9572c.js"
+    "static/js/main.48358d32.js"
   ]
 }
