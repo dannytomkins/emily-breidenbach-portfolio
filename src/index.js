@@ -2,15 +2,28 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Navbar from './components/Navbar';
+import ClassesPage from './pages/ClassesPage';
+import LandingPage from './pages/LandingPage';
+import StudentWorkPage from './pages/StudentWorkPage';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <head>
-    <link rel="stylesheet" href="https://use.typekit.net/crb6emr.css" />
+      <link rel='stylesheet' href='https://use.typekit.net/crb6emr.css' />
     </head>
-    <App />
+  <App/>
+  <Router>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<LandingPage />} />
+          <Route path='/classes' element={<ClassesPage />} />
+          <Route path='/student-work' element={<StudentWorkPage />} />
+        </Routes>
+    </Router>
   </React.StrictMode>
 );
 

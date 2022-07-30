@@ -8,16 +8,16 @@ import LandingPage from './pages/LandingPage';
 import StudentWorkPage from './pages/StudentWorkPage';
 
 const App = () => {
-  return (
-    <Router>
-        <Navbar />
-        <Routes>
-          <Route path='/' element={<LandingPage />} />
-          <Route path='/classes' element={<ClassesPage />} />
-          <Route path='/student-work' element={<StudentWorkPage />} />
-        </Routes>
-    </Router>
-  );
+  // return (
+  //   <Router>
+  //       <Navbar />
+  //       <Routes>
+  //         <Route path='/' element={<LandingPage />} />
+  //         <Route path='/classes' element={<ClassesPage />} />
+  //         <Route path='/student-work' element={<StudentWorkPage />} />
+  //       </Routes>
+  //   </Router>
+  // );
 };
 
 export default App;
