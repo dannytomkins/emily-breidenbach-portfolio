@@ -2,7 +2,7 @@ import React from 'react';
 
 const ClassesPage = () => {
   return (
-    <>
+    <div className='text-block'>
       <h2>Upcoming Weaving Classes</h2>
       <br></br>
       <p>
@@ -44,7 +44,7 @@ const ClassesPage = () => {
         <br></br>
         Registration Link TBD
       </p>
-    </>
+    </div>
   );
 };
 

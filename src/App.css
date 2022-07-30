@@ -56,6 +56,11 @@ body {
   }
 }
 
+/* .text-block */
+.text-block {
+  margin: 20px;
+}
+
 /* .student-work-item */
 @media all and (max-width: 799px) {
   .student-work-item {
