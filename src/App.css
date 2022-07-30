@@ -5,6 +5,16 @@
   justify-content: space-between;
 }
 
+/* .navlist */
+.navlist {
+  list-style: none;
+  display: flex;
+  justify-content: stretch;
+}
+.navlist li {
+  padding: 5px;
+}
+
 /* .student-work-item */
 @media all and (max-width: 799px) {
   .student-work-item {
