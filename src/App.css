@@ -67,6 +67,18 @@ body {
   margin: 20px;
 }
 
+/* .class-images */
+.class-images {
+  width: 100%;
+  display: flex;
+}
+.class-images img {
+  flex: 33.33%;
+  padding: 5px;
+  width: 30%
+  /* height: 100%; */
+}
+
 /* .student-work-item */
 @media all and (max-width: 799px) {
   .student-work-item {

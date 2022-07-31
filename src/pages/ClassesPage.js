@@ -1,7 +1,16 @@
 import React from 'react';
+import classImg1 from '../img/class-1.jpg'
+import classImg2 from '../img/class-2.jpg'
+import classImg3 from '../img/class-3.jpg'
 
 const ClassesPage = () => {
   return (
+    <>
+    <div className='class-images'>
+    <img src={classImg1}/>
+    <img src={classImg2}/>
+    <img src={classImg3}/>
+    </div>
     <div className='text-block'>
       <h2>Upcoming Weaving Classes</h2>
       <br></br>
@@ -45,6 +54,7 @@ const ClassesPage = () => {
         Registration Link TBD
       </p>
     </div>
+    </>
   );
 };
 
