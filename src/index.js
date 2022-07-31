@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import ClassesPage from './pages/ClassesPage';
 import LandingPage from './pages/LandingPage';
 import StudentWorkPage from './pages/StudentWorkPage';
+import MyWorkPage from './pages/MyWorkPage'
 import reportWebVitals from './reportWebVitals';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 
@@ -22,6 +23,7 @@ root.render(
           <Route path='/' element={<LandingPage />} />
           <Route path='classes' element={<ClassesPage />} />
           <Route path='student-work' element={<StudentWorkPage />} />
+          <Route path='work' element={<MyWorkPage />} />
         </Routes>
     </HashRouter>
   </React.StrictMode>
