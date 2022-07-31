@@ -20,8 +20,8 @@ root.render(
         <Navbar />
         <Routes>
           <Route path='/' element={<LandingPage />} />
-          <Route path='/classes' element={<ClassesPage />} />
-          <Route path='/student-work' element={<StudentWorkPage />} />
+          <Route path='classes' element={<ClassesPage />} />
+          <Route path='student-work' element={<StudentWorkPage />} />
         </Routes>
     </HashRouter>
   </React.StrictMode>
