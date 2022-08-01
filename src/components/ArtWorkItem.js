@@ -1,6 +1,6 @@
 import React from 'react'
 
-const StudentWorkItem = (props) => {
+const ArtWorkItem = (props) => {
 
   return (
     <div>
@@ -9,4 +9,4 @@ const StudentWorkItem = (props) => {
   )
 }
 
-export default StudentWorkItem
+export default ArtWorkItem

@@ -1,10 +1,12 @@
 import React from 'react'
-import StudentWorkGallery from '../components/StudentWorkGallery'
+import ArtWorkGallery from '../components/ArtWorkGallery'
+import {studentWorkData} from '../data/studentWorkData'
 
 const StudentWorkPage = () => {
+  const images = studentWorkData
   return (
     <div>
-    <StudentWorkGallery />
+    <ArtWorkGallery images={images}/>
     </div>
   )
 }

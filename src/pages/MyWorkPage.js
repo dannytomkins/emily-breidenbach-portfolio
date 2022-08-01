@@ -1,11 +1,11 @@
 import React from 'react'
-import MyWorkGallery from '../components/MyWorkGallery'
+import ArtWorkGallery from '../components/ArtWorkGallery'
 
 const MyWorkPage = () => {
   return (
     <div>
       test
-    <MyWorkGallery />
+    <ArtWorkGallery />
     </div>
   )
 }
