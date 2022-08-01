@@ -14,6 +14,8 @@ const ArtWorkGallery = (props) => {
     "display":"flex",
     "flexWrap":"wrap",
     "justifyContent":"center",
+    "gap":"10px",
+    "margin": "10px"
   }  
   return (
     <div style={salon}>
