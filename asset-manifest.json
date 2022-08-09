@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/emily-breidenbach-portfolio/static/css/main.b3898697.css",
-    "main.js": "/emily-breidenbach-portfolio/static/js/main.d5d40105.js",
+    "main.css": "/emily-breidenbach-portfolio/static/css/main.47b08686.css",
+    "main.js": "/emily-breidenbach-portfolio/static/js/main.03e04dae.js",
     "static/js/787.c35a382c.chunk.js": "/emily-breidenbach-portfolio/static/js/787.c35a382c.chunk.js",
     "static/media/my-work-017.jpg": "/emily-breidenbach-portfolio/static/media/my-work-017.840cdb7c158043c53afb.jpg",
     "static/media/my-work-001.jpg": "/emily-breidenbach-portfolio/static/media/my-work-001.0593f93921e16a6ca8b6.jpg",
@@ -74,12 +74,12 @@
     "static/media/my-work-029.jpg": "/emily-breidenbach-portfolio/static/media/my-work-029.39e2a940bf6cef361998.jpg",
     "static/media/my-work-031.jpg": "/emily-breidenbach-portfolio/static/media/my-work-031.7da5587ddf56be71832c.jpg",
     "index.html": "/emily-breidenbach-portfolio/index.html",
-    "main.b3898697.css.map": "/emily-breidenbach-portfolio/static/css/main.b3898697.css.map",
-    "main.d5d40105.js.map": "/emily-breidenbach-portfolio/static/js/main.d5d40105.js.map",
+    "main.47b08686.css.map": "/emily-breidenbach-portfolio/static/css/main.47b08686.css.map",
+    "main.03e04dae.js.map": "/emily-breidenbach-portfolio/static/js/main.03e04dae.js.map",
     "787.c35a382c.chunk.js.map": "/emily-breidenbach-portfolio/static/js/787.c35a382c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3898697.css",
-    "static/js/main.d5d40105.js"
+    "static/css/main.47b08686.css",
+    "static/js/main.03e04dae.js"
   ]
 }
