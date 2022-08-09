@@ -34,6 +34,20 @@ import myWork33 from '../img/my-work/my-work-033.jpg'
 
 export const myWorkData = [
     {
+        id: 32,
+        name: "firstImg",
+        artistName: "Artist Name Here",
+        description: "Description of Img",
+        img: myWork32
+    },
+    {
+        id: 33,
+        name: "firstImg",
+        artistName: "Artist Name Here",
+        description: "Description of Img",
+        img: myWork33
+    },
+    {
         id: 1,
         name: "firstImg",
         artistName: "Artist Name Here",
@@ -249,19 +263,5 @@ export const myWorkData = [
         artistName: "Artist Name Here",
         description: "Description of Img",
         img: myWork31
-    },
-    {
-        id: 32,
-        name: "firstImg",
-        artistName: "Artist Name Here",
-        description: "Description of Img",
-        img: myWork32
-    },
-    {
-        id: 33,
-        name: "firstImg",
-        artistName: "Artist Name Here",
-        description: "Description of Img",
-        img: myWork33
     },
 ]
