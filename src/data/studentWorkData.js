@@ -50,13 +50,6 @@ export const studentWorkData = [
         img: studentWork2
     },
     {
-        id: 3,
-        name: "thirdImg",
-        artistName: "Artist Name Here",
-        description: "Description of Img",
-        img: studentWork3
-    },
-    {
         id: 4,
         name: "fourthImg",
         artistName: "Artist Name Here",
@@ -188,6 +181,13 @@ export const studentWorkData = [
         artistName: "Artist Name Here",
         description: "Description of Img",
         img: studentWork22
+    },
+    {
+        id: 3,
+        name: "thirdImg",
+        artistName: "Artist Name Here",
+        description: "Description of Img",
+        img: studentWork3
     },
     {
         id: 23,
