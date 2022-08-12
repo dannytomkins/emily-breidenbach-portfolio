@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import ReactGA from 'react-ga';
 import App from './App';
 import Navbar from './components/Navbar';
 import ClassesPage from './pages/ClassesPage';
@@ -9,6 +10,9 @@ import StudentWorkPage from './pages/StudentWorkPage';
 import MyWorkPage from './pages/MyWorkPage'
 import reportWebVitals from './reportWebVitals';
 import { HashRouter, Routes, Route } from 'react-router-dom';
+
+ReactGA.initialize('G-G5BXS8D3HZ');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
