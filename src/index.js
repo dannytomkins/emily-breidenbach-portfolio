@@ -11,7 +11,7 @@ import MyWorkPage from './pages/MyWorkPage'
 import reportWebVitals from './reportWebVitals';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 
-ReactGA.initialize('G-G5BXS8D3HZ');
+ReactGA.initialize('UA-236983383-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
