@@ -25,7 +25,7 @@ const ClassesPage = () => {
           <br></br>
           September 29-December 8, 2022 (No Class November 24)
           <br></br>
-          <a href='https://continuingstudies.saic.edu/introduction-frame-loom-weaving/1270-2409'>
+          <a href='https://continuingstudies.saic.edu/introduction-frame-loom-weaving/1270-2409' target='_blank'>
             Register Today!
           </a>
         </p>
@@ -39,7 +39,7 @@ const ClassesPage = () => {
           <br></br>
           September 13-November 15
           <br></br>
-          <a href='https://www.chicagobotanic.org/adult_education/botanical_arts/introduction_weaving_online'>
+          <a href='https://www.chicagobotanic.org/adult_education/botanical_arts/introduction_weaving_online'target='_blank'>
             Register Today!
           </a>{' '}
         </p>
@@ -53,7 +53,7 @@ const ClassesPage = () => {
           <br></br>
           October 15-November 12
           <br></br>
-          <a href='https://www.chicagobotanic.org/adult_education/botanical_arts/weaving_workshop_intermediateadvanced'>
+          <a href='https://www.chicagobotanic.org/adult_education/botanical_arts/weaving_workshop_intermediateadvanced'target='_blank'>
             Register Today!
           </a>{' '}
         </p>
