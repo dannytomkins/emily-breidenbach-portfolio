@@ -7,9 +7,9 @@ const ClassesPage = () => {
   return (
     <>
       <div className='class-images'>
-        <img src={classImg1} />
-        <img src={classImg2} />
-        <img src={classImg3} />
+        <img src={classImg1} alt='tabletop during weaving class'/>
+        <img src={classImg2} alt='tabletop during weaving class'/>
+        <img src={classImg3} alt='tabletop during weaving class'/>
       </div>
       <div className='text-block'>
         <h2>Upcoming Weaving Classes</h2>
