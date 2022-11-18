@@ -9,7 +9,7 @@ const ArtWorkItem = (props) => {
       <HashRouter>
         <Routes>
           <Route path=''>
-      <img src={props.item.img} className='student-work-item'/>
+      <img src={props.item.img} alt={props.item.name} className='student-work-item'/>
           </Route>
         </Routes>
       </HashRouter>

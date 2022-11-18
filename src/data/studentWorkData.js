@@ -37,7 +37,7 @@ import studentWork34 from '../img/student-work/sarah-kelley.jpg'
 export const studentWorkData = [
     {
         id: 1,
-        name: "firstImg",
+        name: "ann-chen-2",
         artistName: "Artist Name Here",
         description: "Description of Img",
         img: studentWork1
