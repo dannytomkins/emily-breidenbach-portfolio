@@ -6,13 +6,13 @@ const ArtWorkItem = (props) => {
 
   return (
     <div>
-      <HashRouter>
+      {/* <HashRouter>
         <Routes>
-          <Route path=''>
+          <Route path=''> */}
       <img src={props.item.img} alt={props.item.name} className='student-work-item'/>
-          </Route>
+          {/* </Route>
         </Routes>
-      </HashRouter>
+      </HashRouter> */}
     </div>
   )
 }
