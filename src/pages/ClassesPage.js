@@ -30,7 +30,7 @@ const ClassesPage = () => {
           </a>
         </p>
         <br></br>
-        <p>
+        {/* <p>
           <b>Intro to Weaving: Online</b>
           <br></br>
           <i>Chicago Botanic Garden</i>
@@ -56,7 +56,7 @@ const ClassesPage = () => {
           <a href='https://www.chicagobotanic.org/adult_education/botanical_arts/weaving_workshop_intermediateadvanced'target='_blank'>
             Register Today!
           </a>{' '}
-        </p>
+        </p> */}
       </div>
     </>
   );
