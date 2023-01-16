@@ -15,17 +15,17 @@ const ClassesPage = () => {
         <h2>Upcoming Weaving Classes</h2>
         <br></br>
         <p>
-          <b>Intro to Weaving: Online</b>
+          <b>Intro to Weaving: In-Person</b>
           <br></br>
           <i>
-            School of the Art Institute of Chicago, Adult Continuing Education
+          School of the Art Institute of Chicago, Adult Continuing Education
           </i>
           <br></br>
-          Thursdays, 6-9 p.m. CT
+          Tuesday, 6-9 p.m. CT
           <br></br>
-          September 29-December 8, 2022 (No Class November 24)
+          February 7-April 11, 2023
           <br></br>
-          <a href='https://continuingstudies.saic.edu/introduction-frame-loom-weaving/1270-2409' target='_blank'>
+          <a href='https://continuingstudies.saic.edu/introduction-frame-loom-weaving/1290-2305' target='_blank'>
             Register Today!
           </a>
         </p>
