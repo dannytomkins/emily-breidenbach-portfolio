@@ -12,62 +12,6 @@ ul {
   padding: 0;
 }
 
-/* .navbar */
-.navbar {
-  overflow: hidden;
-  height: 60px;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  display: flex;
-  justify-content: space-between;
-  background-color: #2857A4;
-}
-
-/* .navlist */
-@media all and (max-width: 799px) {
-  .navlist {
-    list-style: none;
-    display: flex;
-    justify-content: stretch;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  .navlist li a {
-    padding-right: 5px;
-    padding-left: 5px;
-    text-decoration: none;
-    font-size: 1.5vw;
-    color: white;
-  }
-  .navlist li a:hover {
-    text-decoration: underline;
-  }
-  #nav-main a {
-    font-size: 3vw;
-  }
-}
-@media all and (min-width: 800px) {
-  .navlist {
-    list-style: none;
-    display: flex;
-    justify-content: stretch;
-    padding-left: 10px;
-    padding-right: 10px;  }
-  .navlist li a {
-    padding-right: 5px;
-    padding-left: 5px;
-    text-decoration: none;
-    color: white;
-  }
-  .navlist li a:hover {
-    text-decoration: underline;
-  }
-  #nav-main a {
-    font-size: large;
-  }
-}
-
 /* .text-block */
 .text-block {
   margin: auto;
