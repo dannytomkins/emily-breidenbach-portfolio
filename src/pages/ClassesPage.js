@@ -15,6 +15,9 @@ const ClassesPage = () => {
         <h2>Upcoming Weaving Classes</h2>
         <br></br>
         <p>
+          <b>Please check again soon!</b>
+        </p>
+        {/* <p>
           <b>Intro to Weaving: In-Person</b>
           <br></br>
           <i>
@@ -29,7 +32,7 @@ const ClassesPage = () => {
             Register Today!
           </a>
         </p>
-        <br></br>
+        <br></br> */}
         {/* <p>
           <b>Intro to Weaving: Online</b>
           <br></br>
