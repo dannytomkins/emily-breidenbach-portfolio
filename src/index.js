@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import ReactGA from 'react-ga';
 import App from './App';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import ClassesPage from './pages/ClassesPage';
 import LandingPage from './pages/LandingPage';
 import StudentWorkPage from './pages/StudentWorkPage';
