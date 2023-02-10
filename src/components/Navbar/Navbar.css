@@ -1,55 +1,74 @@
-/* .navbar */
-.navbar {
-    overflow: hidden;
-    height: 60px;
-    width: 100%;
-    position: fixed;
-    top: 0;
+  .navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
     background-color: #2857A4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
   }
   
-  /* .navlist */
-  @media all and (max-width: 799px) {
-    .navlist {
-      list-style: none;
-      display: flex;
-      justify-content: stretch;
-      padding-left: 10px;
-      padding-right: 10px;
+  .logo {
+    font-size: 1.5em;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+  }
+  
+  .links a {
+    margin: 0 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+}
+
+    .links a:hover {
+        text-decoration: underline;
     }
-    .navlist li a {
-      padding-right: 5px;
-      padding-left: 5px;
-      text-decoration: none;
-      font-size: 1.5vw;
-      color: white;
+    .links a:active {
+        text-decoration: underline;
     }
-    .navlist li a:hover {
-      text-decoration: underline;
+  
+  .icon {
+    display: none;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #5B7DB4;
+    position: absolute;
+    padding: 10px;
+    top: 60px;
+    right: 20px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    margin: 10px 0;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+  }
+  
+  @media (max-width: 600px) {
+    .links {
+      display: none;
     }
-    #nav-main a {
-      font-size: 3vw;
+  
+    .icon {
+      display: block;
     }
   }
-  @media all and (min-width: 800px) {
-    .navlist {
-      list-style: none;
-      display: flex;
-      justify-content: stretch;
-      padding-left: 10px;
-      padding-right: 10px;  }
-    .navlist li a {
-      padding-right: 5px;
-      padding-left: 5px;
-      text-decoration: none;
-      color: white;
-    }
-    .navlist li a:hover {
-      text-decoration: underline;
-    }
-    #nav-main a {
-      font-size: large;
-    }
-  }
+  
