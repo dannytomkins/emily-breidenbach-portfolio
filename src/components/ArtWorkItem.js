@@ -13,7 +13,6 @@ const ArtWorkItem = (props) => {
   return (
     <Link to={`${pathname}/${item.id}`}>
       <img src={props.item.img} alt={props.item.name} className='student-work-item'/>
-      <p>{props.item.name}</p>
       </Link>
   )
 }
