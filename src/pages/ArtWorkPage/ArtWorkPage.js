@@ -57,11 +57,11 @@ const ArtWorkPage = () => {
   return (
     <>
       {data ? (
-        <>
-          <img src={data.img} alt={data.name} className="artwork-page-img"/>
+        <div className="artwork-page-container">
+          <img src={data.img} alt={data.name}/>
           <button onClick={prevImage}>Previous</button>
           <button onClick={nextImage}>Next</button>
-        </>
+        </div>
       ) : (
         <div>Loading...</div>
       )}
