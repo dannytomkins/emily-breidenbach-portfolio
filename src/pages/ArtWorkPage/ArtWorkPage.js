@@ -58,7 +58,7 @@ const ArtWorkPage = () => {
     <>
       {data ? (
         <>
-          <img src={data.img} alt={data.name} />
+          <img src={data.img} alt={data.name} className="artwork-page-img"/>
           <button onClick={prevImage}>Previous</button>
           <button onClick={nextImage}>Next</button>
         </>
