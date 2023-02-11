@@ -1,13 +1,20 @@
 import React from 'react'
 import ArtWorkItem from './ArtWorkItem'
-
-// import {studentWorkData} from '../data/studentWorkData'
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  useParams,
+  useLocation
+} from 'react-router-dom';
 
 const ArtWorkGallery = (props) => {
+  const location = useLocation();
+  const pathname = location.pathname;
   const images = props.images
   const allItems = images.map(item => {
     return (
-      <ArtWorkItem item={item} />
+      <ArtWorkItem item={item} pathname={pathname} />
     )
   })
   const salon = {
@@ -17,9 +24,10 @@ const ArtWorkGallery = (props) => {
     "gap":"10px",
     "margin": "10px"
   }  
+
   return (
     <div style={salon}>
-    {allItems}
+      {allItems}
     </div>
   )
 }

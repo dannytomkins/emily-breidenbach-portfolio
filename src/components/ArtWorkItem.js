@@ -1,19 +1,20 @@
 import React from 'react'
-import { HashRouter, Routes, Route } from 'react-router-dom';
-
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  
+} from 'react-router-dom';
 
 const ArtWorkItem = (props) => {
+  const { item, pathname } = props;
+
 
   return (
-    <div>
-      {/* <HashRouter>
-        <Routes>
-          <Route path=''> */}
+    <Link to={`${pathname}/${item.id}`}>
       <img src={props.item.img} alt={props.item.name} className='student-work-item'/>
-          {/* </Route>
-        </Routes>
-      </HashRouter> */}
-    </div>
+      <p>{props.item.name}</p>
+      </Link>
   )
 }
 

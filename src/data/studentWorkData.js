@@ -274,3 +274,5 @@ export const studentWorkData = [
         img: studentWork34
     },
 ]
+
+export default studentWorkData;

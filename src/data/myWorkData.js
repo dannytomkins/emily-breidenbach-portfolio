@@ -265,3 +265,5 @@ export const myWorkData = [
         img: myWork31
     },
 ]
+
+export default myWorkData;
