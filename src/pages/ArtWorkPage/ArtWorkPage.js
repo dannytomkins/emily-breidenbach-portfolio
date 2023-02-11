@@ -3,6 +3,9 @@ import myWorkData from '../../data/myWorkData';
 import studentWorkData from '../../data/studentWorkData';
 import { useParams } from 'react-router-dom';
 import './ArtWorkPage.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircleChevronRight, faCircleChevronLeft } from '@fortawesome/free-solid-svg-icons';
+
 
 const ArtWorkPage = () => {
   const { id } = useParams();
@@ -59,8 +62,8 @@ const ArtWorkPage = () => {
       {data ? (
         <div className="artwork-page-container">
           <img src={data.img} alt={data.name}/>
-          <button onClick={prevImage}>Previous</button>
-          <button onClick={nextImage}>Next</button>
+          <button id="previous" onClick={prevImage}><FontAwesomeIcon icon={faCircleChevronLeft} /></button>
+  <button id="next" onClick={nextImage}><FontAwesomeIcon icon={faCircleChevronRight} /></button>
         </div>
       ) : (
         <div>Loading...</div>
