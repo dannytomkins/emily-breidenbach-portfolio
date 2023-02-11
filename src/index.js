@@ -9,7 +9,7 @@ import LandingPage from './pages/LandingPage';
 import StudentWorkPage from './pages/StudentWorkPage';
 import MyWorkPage from './pages/MyWorkPage'
 import reportWebVitals from './reportWebVitals';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 ReactGA.initialize('UA-236983383-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
@@ -21,7 +21,7 @@ root.render(
       <link rel='stylesheet' href='https://use.typekit.net/crb6emr.css' />
     </head>
   <App/>
-  <HashRouter>
+  <Router>
         <Navbar />
         <Routes>
           <Route path='/' element={<LandingPage />} />
@@ -29,7 +29,7 @@ root.render(
           <Route path='student-work' element={<StudentWorkPage />} />
           <Route path='work' element={<MyWorkPage />} />
         </Routes>
-    </HashRouter>
+    </Router>
   </React.StrictMode>
 );
 
