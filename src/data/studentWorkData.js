@@ -38,7 +38,7 @@ export const studentWorkData = [
     {
         id: 1,
         name: "ann-chen-2",
-        artistName: "Artist Name Here",
+        artistName: "Ann Chen",
         description: "Description of Img",
         img: studentWork1
     },
