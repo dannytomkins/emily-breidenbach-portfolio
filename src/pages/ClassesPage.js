@@ -30,8 +30,6 @@ const ClassesPage = () => {
           <br></br>
           <i>Chicago Botanic Garden</i>
           <br></br>
-          Tuesdays, 6-8 p.m. CT
-          <br></br>
           Saturday, August 22, 1-3:30 p.m.
           <br></br>
         </p>
