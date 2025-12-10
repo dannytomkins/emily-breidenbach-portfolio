@@ -18,48 +18,26 @@ const ClassesPage = () => {
           <b>Please check again soon!</b>
         </p>
         {/* <p>
-          <b>Intro to Weaving: In-Person</b>
+          <b>Intro to Weaving One Day Workshop</b>
           <br></br>
           <i>
-          School of the Art Institute of Chicago, Adult Continuing Education
+          Chicago Botanic Garden
           </i>
           <br></br>
-          Tuesday, 6-9 p.m. CT
-          <br></br>
-          February 7-April 11, 2023
-          <br></br>
-          <a href='https://continuingstudies.saic.edu/introduction-frame-loom-weaving/1290-2305' target='_blank'>
-            Register Today!
-          </a>
+          Saturday, June 6, 1-3:30 p.m.
         </p>
         <br></br> */}
         {/* <p>
-          <b>Intro to Weaving: Online</b>
+          <b>Intro to Weaving One Day Workshop</b>
           <br></br>
           <i>Chicago Botanic Garden</i>
           <br></br>
           Tuesdays, 6-8 p.m. CT
           <br></br>
-          September 13-November 15
+          Saturday, August 22, 1-3:30 p.m.
           <br></br>
-          <a href='https://www.chicagobotanic.org/adult_education/botanical_arts/introduction_weaving_online'target='_blank'>
-            Register Today!
-          </a>{' '}
         </p>
-        <br></br>
-        <p>
-          <b>Intermediate and Advanced Weaving Workshop In-Person</b>
-          <br></br>
-          <i>Chicago Botanic Garden</i>
-          <br></br>
-          Saturdays, 1-4 p.m. CT
-          <br></br>
-          October 15-November 12
-          <br></br>
-          <a href='https://www.chicagobotanic.org/adult_education/botanical_arts/weaving_workshop_intermediateadvanced'target='_blank'>
-            Register Today!
-          </a>{' '}
-        </p> */}
+*/}
       </div>
     </>
   );
