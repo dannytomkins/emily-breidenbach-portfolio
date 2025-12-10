@@ -14,10 +14,8 @@ const ClassesPage = () => {
       <div className='text-block'>
         <h2>Upcoming Weaving Classes</h2>
         <br></br>
+
         <p>
-          <b>Please check again soon!</b>
-        </p>
-        {/* <p>
           <b>Intro to Weaving One Day Workshop</b>
           <br></br>
           <i>
@@ -26,8 +24,8 @@ const ClassesPage = () => {
           <br></br>
           Saturday, June 6, 1-3:30 p.m.
         </p>
-        <br></br> */}
-        {/* <p>
+        <br></br>
+        <p>
           <b>Intro to Weaving One Day Workshop</b>
           <br></br>
           <i>Chicago Botanic Garden</i>
@@ -37,7 +35,6 @@ const ClassesPage = () => {
           Saturday, August 22, 1-3:30 p.m.
           <br></br>
         </p>
-*/}
       </div>
     </>
   );
