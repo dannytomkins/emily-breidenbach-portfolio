@@ -1,0 +1,76 @@
+# .pages.yml
+
+# 1) MEDIA (where uploaded images/files go)
+media:
+  input: public/uploads
+  output: /uploads
+
+# 2) CONTENT (what you can edit)
+content:
+  # A "projects" collection (one file per project)
+  - name: projects
+    label: Projects
+    type: collection
+    path: content/projects
+    filename: "{primary}.md"
+    view:
+      fields: [title, date, featured]
+      sort: [date, title]
+      default:
+        order: desc
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+
+      - name: date
+        label: Date
+        type: date
+        required: true
+
+      - name: featured
+        label: Featured
+        type: boolean
+        default: false
+
+      - name: cover
+        label: Cover image
+        type: image
+
+      - name: summary
+        label: Short summary
+        type: text
+
+      - name: tags
+        label: Tags
+        type: string
+        list: true
+
+      - name: links
+        label: Links
+        type: object
+        fields:
+          - name: live
+            label: Live URL
+            type: string
+          - name: repo
+            label: GitHub URL
+            type: string
+
+      - name: body
+        label: Body
+        type: rich-text
+
+  # Single-file pages (edit an existing file)
+  - name: about
+    label: About page
+    type: file
+    path: content/about.md
+    fields:
+      - name: title
+        label: Title
+        type: string
+      - name: body
+        label: Body
+        type: rich-text
